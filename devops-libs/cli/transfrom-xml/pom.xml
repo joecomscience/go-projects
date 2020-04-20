@@ -1,0 +1,32 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0
+                      https://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+ 
+	<groupId>com.aycap.parent</groupId>
+  	<artifactId>parentIBB</artifactId>
+	<version>1.0</version>
+	<packaging>pom</packaging>
+	
+	<properties>
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
+	</properties>
+
+	<modules>
+		<module>iBB_SingleSignOn/pom.xml</module>
+		<module>iBB_InsureLib/pom.xml</module>
+		<module>iBB_IBBLib/pom.xml</module>
+		<module>iBB_IDocServiceWeb/pom.xml</module>
+		<module>iBB_InsuranceGW/pom.xml</module>
+		<module>iBB_InsureFrontWeb/pom.xml</module>
+		<module>iBB_InsureMasterWeb/pom.xml</module>
+		<module>iBB_POSFrontWeb/pom.xml</module>
+		<module>iBB_POSMasterWeb/pom.xml</module>
+		<module>iBB_POSProxyMobile/pom.xml</module>
+		<module>iBB_POSServiceWeb/pom.xml</module>
+		<module>iBB_PriceCompareWeb/pom.xml</module>
+	</modules>
+  
+</project>
