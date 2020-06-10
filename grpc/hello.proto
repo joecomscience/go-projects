@@ -1,0 +1,12 @@
+syntax="proto3";
+
+package hello;
+
+message Msg {
+    int32 id = 1;
+    string msg = 2;
+}
+
+service Hello {
+    rpc Start (Msg) returns (Msg);
+}
